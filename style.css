@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.portfolio-container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.navlist{
+    display: flex;
+    gap: 3.5rem;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: antiquewhite;
+}
+.left-container , .right-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.left-container{
+    background: #11877e;
+    width: 70%;
+    padding-left: 3rem;
+}
+.right-container{
+    width: 30%;
+    background: linear-gradient(-45deg, #7d0856, #11877e 100%);
+}
+.icons .fa-brands{
+    color: #bbb;
+    font-size: 1.7rem;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.content{
+    margin-left: 4rem;
+}
+.content .intro{
+    font-size: 1.5rem;
+    color: #bb1250;
+}
+.content  .intro  span{
+    color: #382878;
+}
+.content h1{
+    font-size: 3rem;
+    color:#400303;
+}
+.content .detail{
+    font-size: 1.1rem;
+    color: #fff;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.5rem;
+}
+.btn-container button{
+    border: .1rem dashed #12044a;
+    font-size: 1rem;
+    padding: .8rem 1.5rem;
+    border-radius: .7rem;
+    cursor: pointer;
+    transition: 2s ease;
+}
+button:nth-child(1) {
+    background: #84d5c2;
+    color: #250404;
+}
+button:nth-child(2){
+    background: #84d5c2;
+    color: #250404;
+    margin-left: 2rem;
+}
+button:nth-child(1):hover{
+    background: #7e7d84;
+    color: #080707;
+}
+button:nth-child(2):hover{
+     background: #281f1d;
+     color: #d6df9d;
+}
+.icons .fa-brands { 
+    cursor: pointer;
+    background: linear-gradient(#e01c6d,#98d211);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.design .circle{
+  aspect-ratio: 1;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 70%;
+  transform :translate(-50%, -50%);
+} 
+.circle:nth-child(1){
+      background: linear-gradient(90deg, transparent 50%, #11877e 50%);
+      width: 25rem;
+}
+.circle:nth-child(2){
+     width: 20rem;
+     background-image: url(image/1733913047219~3.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     border: .1rem solid rgb(77, 108, 98);
+     box-shadow:
+      0 0 3rem black ,
+     inset 0 0 3rem black ,
+     0 0 4rem #bb1250 ,
+     inset 0 0 4rem ;
+}
+.input.container{
+    display: flex;
+}
